@@ -2,11 +2,13 @@ package com.luv2code.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class practiceActivity3Main {
+// IOC == Inversion Of Control
+
+public class IOCpa3xml {
 
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext context = 
-				new ClassPathXmlApplicationContext("practiceActivity3-applicationContext.xml");
+				new ClassPathXmlApplicationContext("pa3-applicationContext.xml");
 
 		Coach coach = context.getBean("myCoach", Coach.class);
 		Coach coach2 = context.getBean("myCoach", Coach.class);
@@ -15,5 +17,4 @@ public class practiceActivity3Main {
 		
 		context.close();
 	}
-
 }
