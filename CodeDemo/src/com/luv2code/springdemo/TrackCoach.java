@@ -16,6 +16,14 @@ public class TrackCoach implements Coach {
 	public String getDailyFortune() {
         return fortuneService.getFortune();
 	}
+	
+	public void doMyStartup() {
+		System.out.println("Beans init method");
+	}
+	
+	public void doMyShutdown() {
+		System.out.println("Beans destroy method");
+	}
 }
 
 
