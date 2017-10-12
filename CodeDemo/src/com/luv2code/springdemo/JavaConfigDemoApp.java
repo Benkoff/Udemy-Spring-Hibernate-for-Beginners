@@ -3,7 +3,7 @@ package com.luv2code.springdemo;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /*
- * SportConfig is the configuration file
+ * SportConfig is the configuration file for this demo app
  */
 
 public class JavaConfigDemoApp {
